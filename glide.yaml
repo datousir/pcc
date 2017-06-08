@@ -1,0 +1,11 @@
+package: .
+import:
+- package: github.com/ngaut/log
+- package: github.com/syndtr/goleveldb
+  subpackages:
+  - leveldb
+  - leveldb/filter
+  - leveldb/opt
+  - leveldb/util
+- package: gopkg.in/redis.v6
+  version: ^6.4.1

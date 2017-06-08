@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	redis "gopkg.in/redis.v5"
+	redis "gopkg.in/redis.v6"
 
 	"github.com/ngaut/log"
 	"github.com/syndtr/goleveldb/leveldb"

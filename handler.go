@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	redis "gopkg.in/redis.v5"
+	redis "gopkg.in/redis.v6"
 )
 
 func errResp(w io.Writer, code int, msg string, oid, uid uint64) {

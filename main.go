@@ -6,7 +6,7 @@ import (
 
 	"github.com/ngaut/log"
 
-	redis "gopkg.in/redis.v5"
+	redis "gopkg.in/redis.v6"
 )
 
 var (
